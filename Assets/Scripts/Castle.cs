@@ -66,8 +66,11 @@ public class Castle : MonoBehaviour
 
 	private void SetFlagpoleRaisedPercentage()
 	{
-		float percentage = health * 1.0f / initialHealth;
-		flagpole.SetFlagRaisedPercentage(percentage);
+        if (flagpole != null)
+        {
+            float percentage = health * 1.0f / initialHealth;
+            flagpole.SetFlagRaisedPercentage(percentage);
+        }	
 	}
 
     public void Restore()
@@ -77,8 +80,13 @@ public class Castle : MonoBehaviour
         SetIsKinematic(true);
 
         SetHealth(initialHealth);
-        flagpole.SetFlagToTop();
-        flagpole.enabled = true;
+
+        if (flagpole != null)
+        {
+			flagpole.SetFlagToTop();
+			flagpole.enabled = true;  
+        }
+
     }
 
     public void TakeDamage(int damage = 1)
@@ -104,8 +112,11 @@ public class Castle : MonoBehaviour
             childRigidbody.AddExplosionForce(5.0f, transform.position, 5.0f, 1.0f, ForceMode.Impulse);
         }
 
-        flagpole.SetFlagToBottom();
-        flagpole.enabled = false;
+        if (flagpole != null)
+        {
+			flagpole.SetFlagToBottom();
+			flagpole.enabled = false; 
+        }
 
         Invoke("CallDeathEvent", deathDelaySeconds);
     }
