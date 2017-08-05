@@ -4646,6 +4646,16 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23745983258892900, guid: baa27094b6d4447049ffee2e940cc7fd,
+        type: 2}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23745983258892900, guid: baa27094b6d4447049ffee2e940cc7fd,
+        type: 2}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 54911106579330344, guid: baa27094b6d4447049ffee2e940cc7fd, type: 2}
     - {fileID: 64270772706889106, guid: baa27094b6d4447049ffee2e940cc7fd, type: 2}
@@ -5127,7 +5137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1f706560f75142c18ff954673eb07e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 114036935374311962, guid: e52c5e51825fb4ff19be21acdfb5d8a5,
+  enemyPrefab: {fileID: 114498342051759356, guid: 59324654c4c704be0a6766ae9d7c8ab1,
     type: 2}
   enemyCount: 8
   intervalSeconds: 5

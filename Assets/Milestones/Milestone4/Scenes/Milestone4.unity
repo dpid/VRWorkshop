@@ -1587,6 +1587,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1515029d3f126ec40a25aff1207e94b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1515029d3f126ec40a25aff1207e94b1, type: 3}
   m_IsPrefabParent: 0
@@ -1819,6 +1823,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9dc0903beebeadf4bb4288eb8c6a46b2, type: 3}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 9dc0903beebeadf4bb4288eb8c6a46b2, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 9dc0903beebeadf4bb4288eb8c6a46b2, type: 3}
+      propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4663,7 +4675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1f706560f75142c18ff954673eb07e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 114712059385570358, guid: 727052c31b24d4c3eb481f4188e891c2,
+  enemyPrefab: {fileID: 114498342051759356, guid: 5511107a3c9d0453289d3458c12be100,
     type: 2}
   enemyCount: 8
   intervalSeconds: 5
