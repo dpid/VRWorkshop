@@ -451,6 +451,10 @@ Prefab:
       propertyPath: m_Name
       value: Tree (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}
   m_IsPrefabParent: 0
@@ -1833,6 +1837,10 @@ Prefab:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9dc0903beebeadf4bb4288eb8c6a46b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9dc0903beebeadf4bb4288eb8c6a46b2, type: 3}
   m_IsPrefabParent: 0
@@ -2391,7 +2399,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1031024049
 Transform:
@@ -2453,6 +2461,10 @@ Prefab:
     - target: {fileID: 100000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}
       propertyPath: m_Name
       value: Tree (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}
@@ -3186,6 +3198,10 @@ Prefab:
       propertyPath: m_Name
       value: Tree (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}
   m_IsPrefabParent: 0
@@ -3273,6 +3289,10 @@ Prefab:
     - target: {fileID: 100000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}
       propertyPath: m_Name
       value: Tree (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}
@@ -3942,6 +3962,10 @@ Prefab:
     - target: {fileID: 400000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 59cf97d1053c8114a85c4b922cc5edb7, type: 3}

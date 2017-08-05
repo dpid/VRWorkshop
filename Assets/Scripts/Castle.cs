@@ -12,7 +12,6 @@ public class Castle : MonoBehaviour
     public int health = 10;
     public Flagpole flagpole;
 
-    public float deathDelaySeconds;
     public UnityEvent OnDeath;
 
     public bool isDead
@@ -118,11 +117,6 @@ public class Castle : MonoBehaviour
 			flagpole.enabled = false; 
         }
 
-        Invoke("CallDeathEvent", deathDelaySeconds);
-    }
-
-    private void CallDeathEvent()
-    {
         OnDeath.Invoke();
     }
 	

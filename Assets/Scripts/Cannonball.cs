@@ -20,7 +20,6 @@ public class Cannonball : MonoBehaviour
 
     private new Rigidbody rigidbody;
     private new Renderer renderer;
-    private Vector3 initialScale;
 
     private ParticleSystem explosion;
 
@@ -31,7 +30,6 @@ public class Cannonball : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody>();
         renderer = GetComponent<Renderer>();
-        initialScale = transform.localScale;
 
         explosion = Instantiate(explosionPrefab) as ParticleSystem;
         explosion.Stop();
