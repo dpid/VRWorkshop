@@ -1,5 +1,5 @@
 # PIGSquad VR Workshop
-This is the base project for the PIGSquad VR Workshop. By the end of the project you will have created a working Google VR game application. There are five milestones that attendess will be guided through. If at any point you get stuck, you can go into the milestones folder and reference the milestone you're stuck on.
+This is the base project for the PIGSquad VR workshop. By the end of the project you will have created a working Google VR game application. There are five milestones that attendess will be guided through. If at any point you get stuck, you can go into the milestones folder and reference the milestone you're stuck on.
 
 ## Requirements
 Unity 2017.1.0f3 or higher with Android or iOS target packages
