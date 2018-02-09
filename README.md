@@ -2,6 +2,7 @@
 This is the base project for the PIGSquad VR workshop. By the end of the project you will have created a working Google VR game application. There are five milestones that attendess will be guided through. If at any point you get stuck, you can go into the milestones folder and reference the milestone you're stuck on.
 
 [VR Workshop Video](https://youtu.be/QY5I_EaoEsY)
+
 [VR Workshop Slideshow](https://docs.google.com/presentation/d/1xvpG-XK6WK9wiGRKv5lE_nTFsUR9XKmqyFbU03FicDw/edit?usp=sharing)
 
 ## Requirements
